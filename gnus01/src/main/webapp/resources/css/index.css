@@ -1,0 +1,47 @@
+ body{font-size:16px;margin:0px;background-color:#3e4649;color:#e3e3e3;}
+
+/*input{font-size:3.5rem;}*/
+
+
+/* login page 상단 */
+.login_wrap01{width:100%;height:47.58rem;}
+.login_wrap01 .login_box{width: 70rem;height: 35rem;top: 11rem;position: absolute;left: 25rem;background-color:#2e2f31;font-size:3.5rem;}
+.login_wrap01 .login_box div{width:100%;height:33.3333%;}
+
+.login_wrap01 .login_box .idForm div{display: block;float: left;width: auto;height: 100%;}
+.login_wrap01 .login_box .idForm>div:nth-child(1){width: 20%;box-sizing: border-box;padding: 65px 0px 15px 50px;}
+.login_wrap01 .login_box .idForm>div:nth-child(1)>div{background-color: #22895d;width: 100%;text-align: center;line-height: 1.7;}
+.login_wrap01 .login_box .idForm>div:nth-child(2){width: 60%;box-sizing: border-box;padding: 65px 0px 15px 0px;}
+.login_wrap01 .login_box .idForm>div:nth-child(2)>input{width: 100%;height: 100%;font-size:3.5rem;text-indent: 2rem;}
+.login_wrap01 .login_box .idForm>div:nth-child(3){width: 20%;box-sizing: border-box;padding: 65px 50px 15px 20px;}
+.login_wrap01 .login_box .idForm>div:nth-child(3)>div{background-color: #ee6f46;width: 100%;text-align: center;line-height: 1.7;}
+
+.login_wrap01 .login_box .pwForm div{display: block;float: left;width: auto;height:100%;}
+.login_wrap01 .login_box .pwForm>div:nth-child(1){width: 20%;box-sizing: border-box;padding: 15px 0px 65px 50px;}
+.login_wrap01 .login_box .pwForm>div:nth-child(1)>div{background-color: #22895d;width: 100%;text-align: center;line-height: 1.7;}
+.login_wrap01 .login_box .pwForm>div:nth-child(2){width: 60%;box-sizing: border-box;padding: 15px 0px 65px 0px;}
+.login_wrap01 .login_box .pwForm>div:nth-child(2)>input{width: 100%;height: 100%;font-size:3.5rem;text-indent: 2rem;}
+.login_wrap01 .login_box .pwForm>div:nth-child(3){width: 20%;box-sizing: border-box;padding: 15px 50px 65px 20px;}
+.login_wrap01 .login_box .pwForm>div:nth-child(3)>div{background-color: #ee6f46;width: 100%;text-align: center;line-height: 1.7;}
+
+.login_wrap01 .login_box .submForm{box-sizing: border-box;padding: 1rem 4rem;text-align: center;}
+.login_wrap01 .login_box .submForm div{display: inline-block;width:25%;height:60%;}
+.login_wrap01 .login_box .submForm button{width:85%;height:100%;color:#fff;background-color:#22895d;border: none;border-radius: 10px;font-size:3.5rem;cursor: pointer;outline-style:none;}
+.login_wrap01 .login_box .submForm button:active{width:80%;height:95%;}
+
+login page 하단
+.login_wrap02{width:100%;height:25.3125rem;}
+.login_wrap02 div{font-size: 3.5rem;text-align: center;line-height: 3rem;}
+
+
+/*
+
+iphoneX (width:980px height:2122px)
+@media(max-width:980px){
+	.login_wrap01{width:23.4375rem;height:35.525rem;}
+	.login_wrap01 .login_box{width:20rem;height:25rem;position:absolute;top:9.5rem;left:1.71875rem;}
+	
+	.login_wrap02{width:23.4375rem;height:15.225rem;}
+	.login_wrap02 div{font-size: 1.5rem;text-align: center;line-height: 2rem;}
+	
+} */
